@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada</title>
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <header class="encabezado__container">
+            <div class="encabezado">
+                    <a href="/" class="encabezado__logo" title="Página principal de Jornada">
+                        <img class="encabezado__logo--icono" alt="Logo de Jornada, empresa de viajes y turismo" src="./src/img/logoprovisriablanca-1@2x.png" />
+                    </a>
+                <nav class="encabezado__navegacion">
+                    <ul class="encabezado__navegacion--lista">
+                        <li class="encabezado__navegacion--elemento">
+                            <a href="blog.html" aria-label="Enlace al blog de viajes">Blog</a>
+                        </li>
+                        <li class="encabezado__navegacion--elemento">
+                            <a  href="destino.html" aria-label="Enlace a paquetes de viaje">Paquetes de viaje</a>
+                        </li>
+                        <li class="encabezado__navegacion--elemento">
+                            <a  href="contacto.html" aria-label="Enlace de contacto para consultas">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    
+    </header>
+
+    <section class="banner">
+        <div class="banner__wrapper">
+            <figure class="banner__img--wrapper">
+                <img class="banner__img" alt="Hombre en una canoa" src="./src/img/maldivas@2x.png" />
+                <figcaption class="banner__img--descripcion">Somos una agencia apasionada por crear viajes inolvidables. Desde el destino hasta la selección de actividades, nos encargamos de todos los detalles para que disfrutes al máximo cada momento de tu jornada.</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    
+    <main class="container">
+
+        <section class="ofertas__container">
+            <div class="ofertas__titulo">
+                <div class="ofertas__titulo--texto">Ofertas de la semana</div>
+                <div class="ofertas__titulo--subrayado"></div>
+            </div>
+            <section class="ofertas">
+                
+                <article class="ofertas__cards--elemento ofertas__cards--japon">
+                    <div class="ofertas__card">
+                        <div class="ofertas__card--contenido">
+                            <header class="ofertas__card--destino">
+                                <p class="ofertas__card--destino-tipo">HOTEL+AÉREO</p>
+                                <h2 class="ofertas__card--destino-nombre">Japón</h2>
+                            </header>
+                            <div class="ofertas__card--precio">$ 4000</div>
+                            <div class="ofertas__card--boton">
+                                <a href="#" class="ofertas__card--boton-texto">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+    
+                <article class="ofertas__cards--elemento ofertas__cards--san-andreas">
+                    <div class="ofertas__card">
+                        <div class="ofertas__card--contenido">
+                            <header class="ofertas__card--destino">
+                                <p class="ofertas__card--destino-tipo">HOTEL+AÉREO</p>
+                                <h2 class="ofertas__card--destino-nombre">San Andreas</h2>
+                            </header>
+                            <div class="ofertas__card--precio">$ 3000</div>
+                            <div class="ofertas__card--boton">
+                                <span class="ofertas__card--boton-texto">Ver detalles</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </section>
+    
+        <section class="busca">
+            <header class="busca__titulo">
+                <h2>Busca por Categoría</h2>
+                <hr class="busca__titulo--subrayado">
+            </header>
+            <ul class="busca__categorias">
+                <li class="busca__categoria">
+                    <span class="busca__categoria--icono material-symbols-outlined">
+                        hiking
+                    </span>
+                    <b class="busca__categoria--nombre">Paquetes Nacionales</b>
+                </li>
+                <li class="busca__categoria">
+                    <span class="busca__categoria--icono material-symbols-outlined">
+                        flight
+                    </span>
+                    <b class="busca__categoria--nombre">Paquetes Internacionales</b>
+                </li>
+                <li class="busca__categoria">
+                    <span class="busca__categoria--icono material-symbols-outlined">
+                        airport_shuttle
+                    </span>
+                    <b class="busca__categoria--nombre">Transfer</b>
+                </li>
+                <li class="busca__categoria">
+                    <span class="busca__categoria--icono material-symbols-outlined">
+                        vpn_lock
+                    </span>
+                    <b class="busca__categoria--nombre">Seguro de Viaje</b>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="destinos">
+            <header class="destinos__titulo">
+                <h2 class="destinos__titulo--texto">Destinos Populares</h2>
+                <hr class="destinos__titulo--subrayado">
+            </header>
+            <ul class="destinos__lista">
+                <li class="destinos__elemento">
+                    <img class="destinos__elemento--image" alt="Tokyo" src="./src/img/tokyo.png">
+                    <b class="destinos__elemento--nombre">Tokyo</b>
+                    <p class="destinos__elemento--descripcion">
+                        Tóquio es una ciudad vibrante y cosmopolita, con sus templos históricos,
+                        museos de arte moderno y rascacielos icónicos. No pierdas la oportunidad
+                        de sumergirte en su fascinante atmósfera.
+                    </p>
+                    <button class="destinos__elemento--boton">
+                        <span class="destinos__elemento--boton-texto">Ver detalles</span>
+                    </button>
+                </li>
+                <li class="destinos__elemento">
+                    <img class="destinos__elemento--image" alt="Osaka" src="./src/img/osaka@2x.png">
+                    <b class="destinos__elemento--nombre">Osaka</b>
+                    <p class="destinos__elemento--descripcion">
+                        Osaka es una ciudad animada y moderna en Japón. La ciudad es famosa por su
+                        deliciosa gastronomía y por ser un excelente punto de partida para explorar
+                        otras ciudades japonesas cercanas.
+                    </p>
+                    <button class="destinos__elemento--boton">
+                        <span class="destinos__elemento--boton-texto">Ver detalles</span>
+                    </button>
+                </li>
+            </ul>
+        </section>
+        
+
+
+        <section class="pago">
+            <header class="pago__titulo">
+                <h2 class="pago__titulo--texto">Condiciones de Pago</h2>
+                <hr class="pago__titulo--subrayado">
+            </header>
+            <article class="pago__condiciones">
+                <div class="pago__texto">
+                    <blockquote class="pago__condiciones--destaque">¡Pago a plazos de hasta 12 cuotas!</blockquote>
+                    <p class="pago__condiciones--detalles">
+                        ¡Viaja pagando en hasta 12 cuotas con tarjeta, al contado en crédito con un descuento del 5%!
+                    </p>
+                </div>
+                <div class="pago__imagenes">
+                    <figure class="pago__imagenes--grupo">
+                        <img class="pago__imagenes--imagen" alt="Imagen 1" src="./src/img/Tablet/Homepage/montaje-1.png">
+                        <img class="pago__imagenes--imagen" alt="Imagen 1" src="./src/img/Tablet/Homepage/montaje-2.png">
+                    </figure>
+                    <figure class="pago__imagenes--imagen-destaque">
+                        <img class="pago__imagenes--imagen" alt="Imagen destacada" src="./src/img/Tablet/Homepage/montaje-3.png">
+                    </figure>
+                </div>
+            </article>
+        </section>
+        
+        <section class="testimonios">
+            <header class="testimonios__titulo">
+                <h2 class="testimonios__titulo--texto">Testimonios</h2>
+                <hr class="testimonios__titulo--subrayado">
+            </header>
+            <div class="testimonios__wrapper">
+                <article class="testimonios__elemento">
+                    <blockquote class="testimonios__texto">
+                        Jornada ha sido una de las mejores agencias de viajes que he experimentado. El servicio al cliente fue excepcional, y todo el equipo fue muy atento y servicial.
+                    </blockquote>
+                    <footer class="testimonios__autor">
+                        <img class="testimonios__autor--foto" alt="Ana Lópes" src="./src/img/ellipse-1@2x.png">
+                        <div class="testimonios__autor--info">
+                            <b class="testimonios__autor--nombre">Ana Lópes</b>
+                            <div class="testimonios__autor--evaluacion">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <!-- Repite el número de estrellas según la calificación -->
+                            </div>
+                        </div>
+                    </footer>
+                </article>
+        
+                <article class="testimonios__elemento">
+                    <blockquote class="testimonios__texto">
+                        Recomiendo firmemente la agencia de viajes Jornada. Ofrecen un servicio personalizado y de alta calidad que superó mis expectativas en mi último viaje.
+                    </blockquote>
+                    <footer class="testimonios__autor">
+                        <img class="testimonios__autor--foto" alt="Amari Salin" src="./src/img/avatar-amari@2x.png">
+                        <div class="testimonios__autor--info">
+                            <b class="testimonios__autor--nombre">Amari Salin</b>
+                            <div class="testimonios__autor--evaluacion">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <!-- Repite el número de estrellas según la calificación -->
+                            </div>
+                        </div>
+                    </footer>
+                </article>
+        
+                <article class="testimonios__elemento">
+                    <blockquote class="testimonios__texto">
+                        ¡Mi viaje con Jornada fue increíble! Te la recomiendo mucho si buscas una experiencia emocionante y personalizada.
+                    </blockquote>
+                    <footer class="testimonios__autor">
+                        <img class="testimonios__autor--foto" alt="Lauro B. Matos" src="./src/img/avatar-lauro@2x.png">
+                        <div class="testimonios__autor--info">
+                            <b class="testimonios__autor--nombre">Lauro B. Matos</b>
+                            <div class="testimonios__autor--evaluacion">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <img class="testimonios__autor--evaluacion-estrella" alt="Estrella" src="./src/img/star-1.svg">
+                                <!-- Repite el número de estrellas según la calificación -->
+                            </div>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </section>
+        
+        <img class="pre-footer__image" alt="Imagen pre-footer" src="./src/img/pre-footer-image.png">
+        
+        <footer class="footer__container">
+            <div class="footer">
+                <div class="footer__logo-container">
+                    <img class="footer__logo-icon" alt="Logo" src="./src/img/logobranco-1@2x.png">
+                    <div class="footer__info-container">
+                        <p class="footer__text-info">Horario de atención: 08h - 20h (Lunes a Sábado)</p>
+                        <p class="footer__text-info">Desarrollado por Alura Latam. Proyecto fictício sin fines comerciales.</p>
+                    </div>
+                </div>
+                <div class="footer__social-media-container">
+                    <p class="footer__social-media-text">Accede a nuestras redes sociales:</p>
+                    <nav class="footer__social-media-icons">
+                        <a href="#"><img class="footer__social-media-icon" alt="WhatsApp" src="./src/img/whatsapp-1.svg"></a>
+                        <a href="#"><img class="footer__social-media-icon" alt="Instagram" src="./src/img/instragam-1.svg"></a>
+                        <a href="#"><img class="footer__social-media-icon" alt="Twitter" src="./src/img/twiter-1.svg"></a>
+                    </nav>
+                </div>
+            </div>
+        </footer>
+    </main>  
+
+
+</body>
+
+</html>

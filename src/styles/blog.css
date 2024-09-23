@@ -1,0 +1,79 @@
+
+
+.banner__blog {
+    background-image: url("/src/img/Tablet/Blogpost/Banner_Blog.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.info__banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    color: var(--blanco);
+    padding: 55px 25px;
+    font-size: 25px;
+}
+.info__banner span{
+    display: inline-block;
+    border: 2px solid red;
+    width: 180px;
+    margin-bottom: 40px;
+}
+.info__banner p{
+    font-size: medium;
+    font-weight: 400;
+}
+.titulo__blog {
+    text-align: center;
+    margin: 80px 0;
+}
+.itinerario {
+    list-style: none;
+    margin: 24px;
+}
+.itinerario li{
+    padding-bottom: 30px;
+}
+.itinerario img{
+    width: 100%;
+}
+.dato__imagen--hotel {
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+@media (min-width: 768px) {
+    .llegada {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        height: 360px;
+    }
+    .llegada__datos {
+        flex: 1;
+        height: 100%;
+        line-height: 35px;
+    }
+    .llegada img {
+    flex: 1;
+    }
+    .destinos__elemento--boton {
+        width: 280px;
+    }
+}
+@media (min-width: 1024px) {
+    .destinos__lista {
+        flex-direction: row;
+        align-items: start;
+    }
+}
+
