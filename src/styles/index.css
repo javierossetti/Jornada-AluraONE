@@ -495,8 +495,8 @@ span.material-symbols-outlined {
     .ofertas {
         flex-direction: row;
     }
-    .busca__categoria {
-        flex: 1 1 calc(25% - 20px);
+    .busca__categorias {
+        flex-wrap: nowrap;
     }
    
     .pago__condiciones {
